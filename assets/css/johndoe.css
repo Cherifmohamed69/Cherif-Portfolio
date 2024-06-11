@@ -11629,6 +11629,16 @@ align-items: center;
   border-bottom: 1px solid #dee2e6;
 }
 
+.Footer-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.footer-img{
+  width: 10%;
+  height: 10%;
+}
 .about-section .about-card {
   padding: 60px;
   border-right: 1px solid #dee2e6;

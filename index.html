@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
 	<link rel="stylesheet" href="assets/css/johndoe.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <script src="script.js"></script>
@@ -30,7 +32,6 @@
                 <h4 class="header-subtitle" >Hello, I am</h4>
                 <h2 class="header-title">Cherif Mohamed</h2>
                 <h6 class="header-mono" >Full Stack Web Developer</h6>
-                <!-- <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button> -->
             </div>
         </div>
     </header>
@@ -147,7 +148,21 @@
     <!--Resume Section-->
     <section class="section" id="resume" style="padding: 80px 0;">
         <div class="container">
-            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div style="display: flex;justify-content: space-between ;align-items: baseline ;">
+                <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+                <!-- ========================PDF download button ========================= -->
+                <!-- <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Download Resume PDF</button> -->
+                <a href="./assets/cv_pdf/CV-Cherif-Mohamed.pdf" download="CV-Cherif-Mohamed" style="text-decoration: none;">
+                    <button class="btn btn-primary btn-rounded">
+                        <i class="ti-printer pr-2"></i>Download Resume
+                        </button>
+                        </a>
+
+                            
+                    <!-- ========================PDF download button (end ) ========================= -->
+            </div>
+            
+
             <div class="row">
                 <div class="col-md-6 col-lg-4">
                     <div class="card">
@@ -862,8 +877,9 @@
         </div>
     </div>
     <footer class="footer py-3">
-        <div class="container">
+        <div class="container Footer-container">
             <h1 class="footer-cont ">Cherif Mohamed</h1>
+            <img class="footer-img" src="./assets/imgs/QR/qrcode_chrome.png" alt="">
         </div>
     </footer>
 
