@@ -556,6 +556,9 @@ pre code {
 }
 
 .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   width: 100%;
   padding-right: 10px;
   padding-left: 10px;
