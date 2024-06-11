@@ -556,9 +556,6 @@ pre code {
 }
 
 .container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   width: 100%;
   padding-right: 10px;
   padding-left: 10px;
@@ -11634,7 +11631,7 @@ align-items: center;
 
 .Footer-container{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   
 }
